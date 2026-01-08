@@ -1,12 +1,13 @@
 public class SumOfNaturalNumbers {
 
-    // TODO: Create the method public static int NumberSum(int n)
-    // It should calculate and return the sum of first n natural numbers
+	public int sum(int n){
+		return n*(n+1)/2;
+	}
 
-
-        // Inside main method
-        // TODO: Read N using Scanner
-        // TODO: Call NumberSum(N)
-        // TODO: Print the result
+	public static void main(String[] args){]
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		System.out.println(n);
+	}
     
 }
